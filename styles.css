@@ -9,3 +9,13 @@ h1 { font-family: 'B612 Mono', monospace;}
 p {
   color: red;
 }
+<style type="text/css">
+@font-face {
+    font-family: "Monotype 1";
+    src: url(https://fonts.google.com/specimen/B612+Mono) format("truetype");
+}
+p.customfont { 
+    font-family: 'B612 Mono', monospace;
+}
+</style>
+<p class="customfont">Hello world!</p>
