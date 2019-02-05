@@ -3,10 +3,12 @@ p {border: 150px; padding: 30px; margin: 50px;}
 
 <link href="https://fonts.googleapis.com/css?family=B612+Mono" rel="stylesheet">
 h1{font-family: 'B612 Mono', monospace;}
-body {
-  background-color: powderblue;
-}
+
 h1 {
+  <     href="https://fonts.googleapis.com/css?family=Tangerine">
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
   color: blue;
 }
 p {
