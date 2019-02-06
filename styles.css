@@ -3,9 +3,7 @@ p {border: 150px; padding: 30px; margin: 50px;}
 h1 {border: 150px; padding: 30px; margin: 50px;}
 
 
-p {
-  color: red;
-}
+
 <style type="text/css">
 @font-face {
     font-family: "Monotype 1";
