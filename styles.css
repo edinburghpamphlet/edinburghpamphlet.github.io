@@ -11,3 +11,8 @@ p {
     font-family: "Monotype 1";
     src: url(https://fonts.google.com/specimen/B612+Mono) format("truetype");
 
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
