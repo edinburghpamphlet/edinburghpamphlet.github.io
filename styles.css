@@ -1,25 +1,44 @@
-<style>
-p {border: 300px; padding: 500px; margin: 20px;}
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
-<link href="https://fonts.googleapis.com/css?family=B612+Mono" rel="stylesheet">
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
 
-h1{font-family: 'B612 Mono', monospace;}
-
-h2{font-family: 'B612 Mono', monospace;}
-
-div.a {font-size: 30px;}
-div.b {font-size: 10px;}
-div.1 {line-height: 1.8;}
-
-p{color: red;}
-
-<style type="text/css">
-
-@font-face {font-family: "Monotype 1";src: url(https://fonts.google.com/specimen/B612+Mono) format("truetype");}
-
-p.customfont {font-family: 'B612 Mono', monospace;}
-
-p.line {line-height: 1.3;}
-
-</style>
+ul.posts li {
+    list-style: none;
+}
 
