@@ -5,7 +5,10 @@ p {border: 300px; padding: 400px; margin: 20px;}
 
 h1{font-family: 'B612 Mono', monospace;}
 
-h1{font-family: 'B612 Mono', monospace;}
+h2{font-family: 'B612 Mono', monospace;}
+
+div.a {font-size: 30px;}
+div.b {font-size: 10px;}
 
 p{color: red;}
 
